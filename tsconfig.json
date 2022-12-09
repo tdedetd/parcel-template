@@ -5,7 +5,9 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "target": "ES5"
+    "target": "ES5",
+    "lib": ["ESNext", "dom"],
+    "strict": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
